@@ -52,7 +52,7 @@ vector<string> split(const string &);
  */
 
 void miniMaxSum(vector<int> arr) {
-    long minsum=0,maxsum=0;
+    long minsum=0,maxsum=0; /////Don't forget to mention here as a long integer
     int temp=0;
     for(int i=0;i<arr.size();i++){
         for(int j=i+1;j<arr.size();j++){
